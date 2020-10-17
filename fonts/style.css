@@ -1,0 +1,632 @@
+.contact-information span {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.colorservi {
+    width: 95%;
+    font-size: 0.5rem;
+}
+
+.service-main-title {
+    color: rgb(198, 108, 74);
+    white-space: nowrap;
+    font-size: 2.2em;
+    margin-left: 0;
+}
+
+.service-main-title i {
+    margin-right: 1rem;
+}
+
+.special {
+    font-size: 4.9vw;
+}
+
+.service-row {
+    font-size: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    padding: 0;
+    color: rgba(248, 252, 255, 0.747);
+    margin: 1rem 0;
+}
+
+.service-icon {
+    display: flex;
+    font-size: 1em;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    order: 0;
+}
+
+.service-information {
+    width: 100%;
+    font-size: 1em;
+    text-align: left;
+    margin: 1rem 0;
+    order: 1;
+}
+
+.service-information h3 {
+    width: 100%;
+    font-size: 2em;
+    text-align: left;
+    order: 1;
+}
+
+.service-information p {
+    width: 100%;
+    font-size: 1.8em;
+    text-align: left;
+    order: 1;
+}
+
+.contact-information i {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.contengo {
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+.primero {
+    display: none;
+}
+
+.options {
+    flex-direction: column;
+}
+
+nav {
+    display: block !important;
+}
+
+.segundo {
+    width: 90%;
+    height: 90%;
+    margin: 1rem auto;
+    font-size: 0.6rem;
+}
+
+@media (min-width: 200px) {
+    .colorservi {
+        font-size: 0.8rem;
+    }
+    .segundo {
+        font-size: 0.8rem;
+    }
+    .imgs {
+        display: block;
+        margin: 0 auto 5rem auto;
+        width: 94%;
+        /* margin-left: 170px;*/
+    }
+    .movers {
+        margin-left: 40px;
+    }
+}
+
+@media (min-width: 576px) {
+    .segundo {
+        font-size: 1rem;
+    }
+    .colorservi {
+        font-size: 0.7rem;
+        width: 90%;
+    }
+    .service-row {
+        padding: 0 1rem;
+    }
+    .contact-information span {
+        font-size: 1.8rem;
+        margin: 0 0.5rem;
+    }
+    .contact-information i {
+        font-size: 2.2rem;
+        margin: 0 0.5rem;
+    }
+    .service-main-title {
+        font-size: 2.6em;
+        margin-left: 0.5rem;
+    }
+    .service-icon {
+        width: auto;
+        margin: 0 1.5rem;
+        justify-content: center;
+    }
+    .service-information {
+        width: auto;
+    }
+    .reverse {
+        text-align: right;
+        flex-direction: row-reverse;
+    }
+    .reverse h3,
+    .reverse p {
+        text-align: right;
+    }
+    .service-row {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    .moves {
+        margin-left: 76%;
+    }
+    .movesa {
+        margin-left: 85%;
+    }
+}
+
+@media (min-width: 768px) {
+    .ul-options {
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .ul-options h5 {
+        font-size: 120%;
+    }
+    .contengo {
+        width: 85%;
+        margin-left: 15%;
+    }
+    .sidebar-header {
+        height: 40%;
+    }
+    .primero {
+        padding: 2rem 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: fixed;
+        height: 100vh;
+        width: 15%;
+        background-color: rgb(3, 3, 46);
+        color: rgb(225, 236, 227);
+    }
+    .options {
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        color: rgb(225, 236, 227);
+    }
+    .options a {
+        color: black;
+    }
+    nav {
+        display: none !important;
+    }
+    .segundo {
+        height: 100%;
+        width: 40%;
+        margin: 0 0 0 auto;
+    }
+    .contact-information span {
+        font-size: 2.1rem;
+        margin: 0 0.8rem;
+    }
+    .contact-information i {
+        font-size: 2.5rem;
+        margin: 0 0.8rem;
+    }
+    .service-main-title {
+        margin-left: 1rem;
+    }
+    .colorservi {
+        width: 85%;
+    }
+    .moves {
+        margin-left: 76%;
+    }
+    .movesa {
+        margin-left: 85%;
+    }
+}
+
+@media (min-width: 992px) {
+    html {
+        font-size: 1.2rem;
+    }
+    .ul-options h5 {
+        font-size: 140%;
+    }
+    .colorservi {
+        width: 70%;
+    }
+    .moves {
+        margin-left: 80%;
+    }
+    .movesa {
+        margin-left: 85%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .imgs {
+        display: block;
+        margin: 0 auto 5rem auto;
+        /* margin-left: 170px;*/
+        width: 70%;
+    }
+    .botosx {
+        margin-top: 40px;
+        margin-left: 50px;
+        border: rgb(145, 60, 51);
+        background-color: rgb(145, 60, 51);
+    }
+    .movers {
+        margin-left: 68px;
+    }
+    .moves {
+        margin-left: 80%;
+    }
+    .movesa {
+        margin-left: 85%;
+    }
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-header {
+    position: relative;
+    padding: 0.5rem;
+}
+
+.navbar-header h1 {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+
+.navbar-header button {
+    display: block;
+    position: relative;
+    margin-right: 0;
+    margin-left: auto;
+    z-index: 10;
+}
+
+nav {
+    flex-direction: column;
+    background-color: rgb(32, 39, 57);
+    color: rgb(225, 236, 227);
+}
+
+.contengo {
+    padding: 0;
+}
+
+.welcome {
+    font-size: 2.5em;
+}
+
+.bicho {
+    font-size: 2rem;
+}
+
+#presentacion {
+    height: 100vh;
+    overflow: hidden;
+    background-image: url("business.jpg");
+}
+
+.segundo {
+    padding: 1rem;
+    background-color: rgba(198, 108, 74, 0.7);
+    color: rgb(225, 236, 227);
+}
+
+.fila {
+    height: 70px;
+    background-color: rgb(5, 5, 82);
+}
+
+.filatwo {
+    height: 100px;
+}
+
+.colu {
+    padding: 0.7rem;
+    border-radius: 0.4rem;
+    display: inline-block;
+    background-color: rgb(145, 60, 51);
+    margin: 0 0 0 auto;
+}
+
+.logo {
+    color: rgb(225, 236, 227);
+    font-size: 2.4rem;
+    color: white;
+}
+
+.hambur2 {
+    color: rgb(40, 48, 70);
+    padding: 0.4rem 0.7rem;
+    border-radius: 0.2rem;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.marg {
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    width: 100%
+}
+
+.but {
+    width: auto;
+}
+
+body {
+    width: 100%;
+    background-color: rgb(3, 3, 46);
+}
+
+.hambur button {
+    display: block;
+    margin-right: 0;
+    margin-left: auto;
+    background-color: rgb(145, 60, 51);
+    color: white;
+}
+
+.funcion {
+    text-align: center;
+    width: 50%;
+    height: 70px;
+    margin-top: 40px;
+}
+
+.boto {
+    border: rgb(145, 60, 51);
+}
+
+.sign {
+    border: rgb(145, 60, 51);
+    background-color: rgb(145, 60, 51);
+}
+
+.bajito {
+    margin-top: 100px;
+}
+
+.about-us {
+    display: block;
+}
+
+.us {
+    color: rgb(145, 60, 51);
+}
+
+.botosx {
+    margin-top: 40px;
+    margin-left: 40px;
+    border: rgb(145, 60, 51);
+    background-color: rgb(145, 60, 51);
+}
+
+.services {
+    overflow: hidden;
+}
+
+.baja {
+    margin-top: 76px;
+    height: 100vh;
+    background-color: rgb(3, 3, 46);
+}
+
+#about-us-container {
+    background-color: ivory;
+}
+
+#contact {
+    border-radius: 0.5rem;
+}
+
+.botonser {
+    margin-top: 50px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fonta {
+    color: aliceblue;
+}
+
+.atajo {
+    display: flex;
+}
+
+.imass {
+    margin-left: 5px;
+}
+
+.iconos {
+    display: flex;
+}
+
+.iconep {
+    margin-left: 100px;
+}
+
+.arreglar {
+    position: relative;
+}
+
+.margins {
+    margin-top: 0.5rem;
+    color: black;
+}
+
+.colores {
+    color: rgb(3, 3, 46);
+    margin-top: 1rem;
+}
+
+.colore {
+    margin-top: 1rem;
+    color: rgb(3, 3, 46);
+}
+
+.cuadro-imagen {
+    top: 20%;
+    right: 5%;
+    padding-top: 30%;
+    width: 30%;
+    background-image: url("./cafecito.jpg");
+    background-size: cover;
+    z-index: 2;
+}
+
+.cuadro-imagen,
+.cuadro-azul,
+.cuadro-naranja {
+    position: absolute;
+}
+
+.cuadro-naranja {
+    background-color: rgb(198, 108, 74);
+    top: 25%;
+    right: 10%;
+    padding-top: calc(35%);
+    width: calc(35%);
+    z-index: 1;
+}
+
+.cuadro-azul {
+    background-color: rgb(32, 39, 57);
+    top: 15%;
+    right: 10%;
+    width: 30%;
+    padding-top: 30%;
+    z-index: 0;
+}
+
+.contenido {
+    width: 50%;
+}
+
+.lead {
+    color: black;
+}
+
+.crown {
+    color: rgb(3, 3, 46);
+}
+
+.about-footer {
+    padding: 0.5rem;
+    /*    background-image: url("./cafe2.jpg");*/
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    margin-left: 30%;
+    margin-top: 1rem;
+}
+
+#services {
+    overflow: hidden;
+    background-color: rgb(198, 108, 74);
+}
+
+.colorservi {
+    padding: 1rem;
+    overflow: hidden;
+    background-color: rgb(32, 39, 57);
+    margin: 0 auto;
+}
+
+.use {
+    color: white;
+}
+
+.fontas {
+    color: aliceblue;
+    margin-left: 0px;
+}
+
+.fontax {
+    color: aliceblue;
+    margin-left: 0px;
+}
+
+.probarcolor {
+    width: 5%;
+    height: 1%;
+}
+
+.titulo {
+    margin-top: 5%;
+}
+
+.contactos {
+    background-color: ivory;
+}
+
+.contact-row {
+    width: 70%;
+    text-align: center;
+}
+
+.conteo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.insta {
+    color: rgb(198, 108, 74);
+}
+
+.contact-information {
+    white-space: nowrap;
+    width: 25rem;
+    min-width: 70%;
+    max-width: 100%;
+    margin: 1rem 0 1rem auto;
+}
+
+.links-container {
+    border-top: white 1px solid;
+}
+
+.int-link a {
+    margin-left: 0.2rem;
+    padding: 0.3rem;
+    font-size: 1.2rem;
+    display: block;
+    color: #ddd !important;
+    text-decoration: none;
+}
+
+.ul-options .int-link a {
+    padding: 0;
+}
+
+.int-link a:active,
+.int-link a:hover {
+    text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.63);
+    color: white !important;
+}

@@ -1,0 +1,352 @@
+.contenedor-sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+}
+
+.notification {
+    margin-top: -18px;
+    height: 8%;
+}
+
+#main-content {
+    background-color: white;
+    min-height: 100vh;
+}
+
+.grid-1 {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    color: black;
+    min-height: 10vh;
+    background-color: rgb(198, 108, 74);
+}
+
+.subgrid2 {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
+.content-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1%;
+    width: 30%;
+}
+
+.rows {
+    display: flex;
+    justify-content: space-around;
+}
+
+#links {
+    color: black;
+}
+
+.grid-2 {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    min-height: 90vh;
+}
+
+.Colum-principal {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    min-height: 65vh;
+    /*  border: 2px solid grey;*/
+}
+
+.content-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*text-align: center;*/
+    width: 100%;
+    min-height: 13vh;
+}
+
+.content-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: flex-start;
+    width: 80%;
+    min-height: 8vh;
+}
+
+.employee {
+    width: 100%;
+}
+
+.subcontent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.subcontent2 {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.subcontent a {
+    color: black;
+}
+
+.content-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 55%;
+    min-height: 8vh;
+}
+
+.h4-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+#information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 5vh;
+}
+
+#Tasks-pendient {
+    margin-top: 10%;
+    width: 80%;
+    background-color: rgb(32, 39, 57);
+    color: white;
+    border: rgb(32, 39, 57);
+}
+
+#calendario,
+#Tasks-name,
+#Tasks,
+#Date-Tasks {
+    border: 2px solid grey;
+}
+
+#Tasks,
+#Tasks-name {
+    width: 90%;
+}
+
+.Date-month {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#calendario,
+#Date-Tasks {
+    width: 60%;
+}
+
+.tasks-name {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tasks {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link-footer a {
+    color: black;
+}
+
+#Tasks-b {
+    background-color: rgb(32, 39, 57);
+    color: white;
+    border: rgb(32, 39, 57);
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.Country-user {
+    width: 63%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    min-height: 10vh;
+}
+
+.text-country {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    min-height: 5vh;
+}
+
+#text-employee {
+    border: 2px solid grey;
+    width: 90%;
+    height: 4vh;
+}
+
+.boton {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+#Button-contract {
+    background-color: rgb(32, 39, 57);
+    color: white;
+    border: rgb(32, 39, 57);
+    width: 70%;
+}
+
+#sidebar {
+    display: none;
+}
+
+nav {
+    display: block !important;
+}
+
+.navbar-header {
+    position: relative;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.navbar-header h1 {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+
+.navbar-header button {
+    margin-top: 0;
+    display: block;
+    position: relative;
+    margin-right: 0;
+    margin-left: auto;
+    z-index: 10;
+}
+
+nav {
+    flex-direction: column;
+    background-color: rgb(32, 39, 57);
+    color: white;
+}
+
+.cerrar {
+    background-color: white;
+    color: black;
+}
+
+.text {
+    margin-top: 40px;
+}
+
+@media(min-width: 768px) {
+    #sidebar {
+        padding: 2rem 1rem;
+        flex-direction: column;
+        display: flex;
+        position: fixed;
+        background-color: rgb(3, 3, 46);
+        color: white;
+        width: 16%;
+        height: 100vh;
+    }
+    nav {
+        display: none !important;
+    }
+    #main-content {
+        margin-left: 16%;
+        width: 84%;
+        min-height: 100vh;
+    }
+    .subgrid2 {
+        width: 30%;
+    }
+    .content-grid {
+        width: 70%;
+    }
+    .Colum-principal {
+        width: 80%;
+    }
+    .h4-footer {
+        width: 90%;
+    }
+    #Button-contract {
+        width: 50%;
+    }
+    .content-2 {
+        width: 45%;
+    }
+    #Tasks,
+    #Tasks-name {
+        width: 50%;
+    }
+    #calendario,
+    #Date-Tasks {
+        width: 30%;
+    }
+    #information {
+        align-items: flex-start;
+    }
+    .tasks,
+    .tasks-name {
+        align-items: flex-start;
+    }
+    .content-2 {
+        align-items: flex-start;
+    }
+}
+
+@media(min-width: 468px) {
+    .content-title {
+        flex-direction: row;
+    }
+}
+
+@media(min-width: 415px) {}

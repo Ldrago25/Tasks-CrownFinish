@@ -1,0 +1,490 @@
+.contenedor-sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+}
+
+.notification {
+    margin-top: -18px;
+    height: 8%;
+}
+
+#main-content {
+    background-color: white;
+    min-height: 100vh;
+}
+
+.grid-1 {
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    min-height: 10vh;
+    background-color: rgb(198, 108, 74);
+}
+
+.subgrid2 {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
+.content-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1%;
+    width: 30%;
+}
+
+.rows {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#links {
+    color: black;
+}
+
+.grid-2 {
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: black;
+    min-height: 90vh;
+    background-color: rgb(198, 108, 74);
+}
+
+.Colum-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 65%;
+    min-height: 64.5vh;
+    background-color: white;
+    height: 20px;
+    overflow-y: scroll;
+}
+
+.content-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    min-height: 13vh;
+}
+
+.content-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    width: 55%;
+    min-height: 5vh;
+}
+
+.content-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: center;
+    width: 45%;
+    min-height: 9vh;
+}
+
+.h4-footer {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    margin-left: 2%;
+}
+
+#information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 95%;
+    min-height: 10vh;
+}
+
+.link-footer a {
+    color: black;
+}
+
+.icon {
+    margin-left: 2%;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.Country-user {
+    width: 63%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    min-height: 10vh;
+}
+
+.text-country {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    min-height: 5vh;
+}
+
+#textfield {
+    border: 2px solid grey;
+    width: 30%;
+    height: 4vh;
+}
+
+.hr {
+    border: 0.8px solid rgba(46, 43, 43, 0.6);
+    width: 95%;
+}
+
+.user-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.boton {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+#Button-contract {
+    background-color: rgb(32, 39, 57);
+    color: white;
+    border: rgb(32, 39, 57);
+    width: 70%;
+}
+
+#sidebar {
+    display: none;
+}
+
+nav {
+    display: block !important;
+}
+
+.navbar-header {
+    position: relative;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-header h1 {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+
+.navbar-header button {
+    margin-top: 0;
+    display: block;
+    position: relative;
+    margin-right: 0;
+    margin-left: auto;
+    z-index: 10;
+}
+
+nav {
+    flex-direction: column;
+    background-color: rgb(32, 39, 57);
+    color: white;
+}
+
+.rows h3 {
+    margin: 0;
+}
+
+.icono-perfil {
+    font-size: 40px;
+    margin: 0 30px 0  20px;
+}
+
+#sidebar {
+    justify-content: space-between;
+}
+
+.sidebar-header {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    color: rgb(225, 236, 227);
+    font-size: 3rem;
+    color: white;
+}
+
+.h5 {
+    font-size: 1.5rem;
+}
+
+.int-link a {
+    margin-left: 0.2rem;
+    padding: 0.3rem;
+    font-size: 1.8rem;
+    display: block;
+    color: #ddd !important;
+    text-decoration: none;
+}
+
+.options {
+    text-align: center !important;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    color: rgb(225, 236, 227);
+    margin-bottom: 20%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ul-options {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+int-link a:active,
+.int-link a:hover {
+    text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.63);
+    color: white !important;
+}
+
+.buscar-b:hover {
+    background-color: rgb(3, 3, 46);
+    border-color: rgb(3, 3, 46);
+    color: white;
+}
+
+.fondo {
+    background-image: url("cup-of-coffee.jpg");
+    background-size: cover;
+    background-position-y: 20%;
+    color: white;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-inicio {
+    border: rgb(145, 60, 51);
+    background-color: rgb(145, 60, 51);
+    margin: 10px 10px 0 10px;
+    height: 40px;
+    width: 100px;
+    font-size: large;
+}
+
+.saludo {
+    align-self: center;
+}
+
+.btn-office {
+    border: rgb(145, 60, 51);
+    background-color: rgb(145, 60, 51);
+    margin: 10px 10px 20px 10px;
+    font-size: x-large;
+}
+
+.check {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.form-check-input {
+    position: relative;
+}
+
+.form-check-label {
+    padding-left: 0.5rem;
+}
+
+form {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.select {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.division {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sub-division {
+    width: 48%;
+}
+
+.confirmacion {
+    display: flex;
+    justify-content: center;
+}
+
+.botones {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.boton{
+    width: 150px;
+    background-color: rgb(3, 3, 46);
+    border-color: rgb(3, 3, 46);
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#contenido-solicitud {
+    display: none;
+}
+
+.upload-button{
+    text-align: center;
+    width: 30%;
+    font-style: italic;
+}
+
+.upload-button:hover{
+    color: rgb(3, 3, 46);
+    text-shadow: 4px rgba(3, 3, 46, 0.6);
+}
+
+.logos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-task {
+    width: 100%;
+}
+
+.logo-task2 {
+    width: 150px;
+}
+
+@media(min-width: 768px) {
+    #sidebar {
+        padding: 2rem 1rem;
+        flex-direction: column;
+        display: flex;
+        position: fixed;
+        background-color: rgb(3, 3, 46);
+        color: white;
+        width: 16%;
+        height: 100vh;
+    }
+    nav {
+        display: none !important;
+    }
+    #main-content {
+        margin-left: 16%;
+        width: 84%;
+        min-height: 100vh;
+    }
+    .subgrid2 {
+        width: 30%;
+    }
+    .content-grid {
+        width: 70%;
+    }
+}
+
+@media(max-width: 468px) {
+    #Buscar {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1210px) {
+    .options {
+        padding: 0;
+    }
+
+    .h5 {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .int-link a {
+        margin-left: 0.1rem;
+        padding: 0.3rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .int-link a {
+        font-size: 1.1rem;
+    }
+}
+
+@media(max-width: 660px) {
+    .check {
+        flex-direction: column;
+        text-align: center;
+    }
+    .display-3 {
+        font-size: 50px;
+    }
+}

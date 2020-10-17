@@ -1,0 +1,366 @@
+.contenedor-sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 60vh;
+}
+
+.notification {
+    margin-top: -18px;
+    height: 8%;
+    margin-right: 20px;
+    text-align: end;
+}
+
+#main-content {
+    background-color: white;
+    min-height: 100vh;
+}
+
+.grid-1 {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    color: black;
+    min-height: 10vh;
+    background-color: rgb(198, 108, 74);
+}
+
+.subgrid2 {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+}
+
+.content-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1%;
+    width: 30%;
+}
+
+.rows {
+    display: flex;
+    justify-content:center;
+    margin-right: 10px;
+}
+
+.logo-task {
+    width: 120px;
+}
+
+#links {
+    color: black;
+}
+
+.grid-2 {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    color: black;
+    min-height: 90vh;
+    background-color: rgb(209, 208, 208);
+}
+
+#title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Colum-principal {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    padding-top: 40px;
+    background-color: white;
+    min-height: 90vh;
+}
+
+#text-usuario,
+#cargo-usuario,
+#Sexo-usuario {
+    border: 2px solid grey;
+}
+
+#text-usuario {
+    min-width: 90%;
+}
+
+.content-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.search-usuario {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-main {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 15vh;
+    background-color: rgb(235, 226, 212);
+}
+
+.Cargo,
+.Sexo {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.edit-ususario {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navar-usuario {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Add-user {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-u {
+    color: black;
+}
+
+.Name-usuario {
+    margin-left: 5%;
+}
+
+.got {
+    margin-left: 1%;
+}
+
+.buton {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Send-solicitud {
+    background-color: rgb(32, 39, 57);
+    color: white;
+    border: rgb(32, 39, 57);
+    width: 50%;
+}
+
+#sidebar {
+    display: none;
+}
+
+nav {
+    display: block !important;
+}
+
+.navbar-header {
+    position: relative;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.navbar-header h1 {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+
+.navbar-header button {
+    margin-top: 0;
+    display: block;
+    position: relative;
+    margin-right: 0;
+    margin-left: auto;
+    z-index: 10;
+}
+
+nav {
+    flex-direction: column;
+    background-color: rgb(32, 39, 57);
+    color: white;
+}
+
+#boton-notificacion2 {
+    z-index: 20;
+}
+
+#notificar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 21;
+    height: 60vh;
+    overflow-y: scroll;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 60%;
+    padding: 10px 0;
+    margin-top: 83px;
+    transition: margin-left 1s;
+}
+
+.desactivar {
+    margin-left: -60%;
+}
+
+.activar {
+    margin-left: 0;
+}
+
+.notificacion {
+    margin-bottom: 20px;
+    padding: 10px 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-top: solid rgba(184, 69, 31, 0.3);
+    border-bottom: solid rgba(184, 69, 31, 0.3);
+}
+
+#notificar h6 {
+    text-align: end;
+    margin-bottom: 5px;
+    margin-right: 8px;
+}
+
+.notificacion h5 {
+    background-color: rgb(198, 108, 74);
+    color: white;
+    padding: 4px;
+    text-align: center;
+    width: 100%;
+}
+
+.notificacion p {
+    margin-left: 20px
+}
+
+.notificacion h6 {
+    text-align: start !important;
+}
+
+.btn-notificar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.boton-notificar {
+    background-color: rgb(3, 3, 46);
+    color: white;
+    height: 30px;
+    padding: 5px 2px;
+    width: 100px;
+    font-size: 15px;
+}
+
+
+@media(min-width: 768px) {
+    #sidebar {
+        padding: 2rem 1rem;
+        flex-direction: column;
+        display: flex;
+        position: fixed;
+        background-color: rgb(3, 3, 46);
+        color: white;
+        width: 16%;
+        height: 100vh;
+        z-index: 22;
+    }
+    nav {
+        display: none !important;
+    }
+    #main-content {
+        margin-left: 16%;
+        width: 84%;
+        min-height: 100vh;
+    }
+    .content-grid {
+        width: 70%;
+    }
+    .Colum-principal {
+        width: 70%;
+    }
+    #Send-solicitud {
+        width: 30%;
+    }
+
+    #notificar {
+        min-height: 95vh;
+        width: 16%;
+        position: fixed;
+        z-index: 21;
+        margin-top: 79px;
+        background-color: rgba(255, 255, 255, 0.7);
+        color: black;
+        padding: 20px 0;
+        transition: margin-left 1s;
+    }
+
+    .desactivar {
+        margin-left: 0;
+    }
+
+    .activar {
+        margin-left: 16%;
+    }
+
+    .boton-notificacion {
+        color: white;
+    }
+
+    .boton-notificacion:hover {
+        color: rgb(238, 234, 234);
+        border-color: transparent;
+    }
+
+    .notificacion {
+        background-color: rgba(255, 255, 255, 0.8);
+        border-top: solid rgba(184, 69, 31, 0.3);
+        border-bottom: solid rgba(184, 69, 31, 0.3);
+        min-height: 50px;
+    }
+}
+
+@media (max-width: 361px) {
+    .rows h5 {
+        font-size: 16px;
+    }
+}

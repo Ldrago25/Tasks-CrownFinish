@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Tasks Crown</title>
+    <link href="font-awesome/css/fontawesome.css" rel="stylesheet">
+    <link href="font-awesome/css/brands.css" rel="stylesheet">
+    <link href="font-awesome/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="TasksWP.css">
+</head>
+
+<body>
+
+    <div id="sidebar">
+        <div class="notification">
+            <a id="boton-notificacion" role="button"><i title="notifications" class="fas fa-bell fa-2x"></i></a>
+        </div>
+        <div class="contenedor-sidebar">
+            <div class="Photo">
+                <p class="h6">Photo</p>
+                <h6>Nombre</h6>
+            </div>
+            <div class="reputacion">
+                <h6>Reputacion</h6>
+            </div>
+            <div class="Description">
+                <h6>Description</h6>
+            </div>
+            <div class="Icon-country">
+                <h6>Icon Country</h6>
+            </div>
+            <div class="Nombre-country">
+                <h6>Usa</h6>
+            </div>
+            <div class="text">
+                <a href="Pago.html">Pago</a>
+            </div>
+            <div class="boton">
+                <a class="btn btn-secondary cerrar" href="index.html">Close Session</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="notificaciones desactivar" id="notificar">
+        <h6>15/octubre/2020</h6>
+        <div class="notificacion">
+            <h5>Empresa of design - local</h5>
+            <p>¡Ha enviado una solicitud de trabajo!</p>
+            <div class="btn-notificar">
+                <button class="btn btn-secundary boton-notificar">Ver empresa</button>
+            </div>
+        </div>
+        <h6>15/octubre/2020</h6>
+        <div class="notificacion">
+            <h5>Empresa DT alimentos</h5>
+            <p>¡Ha aceptado su solicitud de trabajo!</p>
+        </div>
+        <h6>15/octubre/2020</h6>
+        <div class="notificacion">
+            <h5>Task / work pending</h5>
+            <p>Tines una nueva tarea / work</p>
+            <div class="btn-notificar">
+                <button class="btn btn-secundary boton-notificar">Ver</button>
+            </div>
+        </div>
+    </div>  
+
+    <nav class="navbar sticky-top">
+        <div class="navbar-header">
+            <a id="boton-notificacion2" role="button"><i title="notifications" class="fas fa-bell fa-2x"></i></a>
+            <h1 class="h1-logo"> Imagen </h1>
+            <button class="navbar-toggle collapsed btn btn-secondary" data-toggle="collapse" data-target="#nav-content">
+            <i class="fas fa-align-justify fa-2x"></i>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse " id="nav-content">
+            <div class="links-container">
+                <div class="asociacion">
+                    <h6>Nombre</h6>
+                </div>
+                <h6>Reputacion</h6>
+                <div class="reputacion">
+                    <h6>Reputacion</h6>
+                </div>
+                <div class="Description">
+                    <h6>Description</h6>
+                </div>
+                <div class="Icon-country">
+                    <h6>Icon Country</h6>
+                </div>
+                <div class="Nombre-country">
+                    <h6>Usa</h6>
+                </div>
+                <div class="text">
+                    <a href="Pago.html">Pago</a>
+                </div>
+                <div class="boton-i">
+                    <a class="btn btn-secondary cerrar" href="index.html">Close Session</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-content">
+        <div id="principal">
+            <div id="data">
+                <img src="TASK_Mesa.png" alt="" class="logo-task">
+            </div>
+        </div>
+        <div id="cuerpo-content">
+            <div class="row1-content">
+                <div class="colum1">
+                    <div class="icon">
+                        <i class="fa fa-graduation-cap fa-5x" aria-hidden="true"></i>
+                    </div>
+                    <input type="button" value="MY PROFESSION" id="PROFESSION" class="buton1">
+                </div>
+                <div class=" colum2">
+                    <div class="icon">
+                        <i class="fa fa-tasks fa-5x edits" aria-hidden="true"></i>
+                    </div>
+                    <input type="button" value="TASKS" id="TASKS" class="buton1">
+                </div>
+                <div class="colum3">
+                    <div class="icon">
+                        <i class="fa fa-search fa-5x edit" aria-hidden="true"></i>
+                    </div>
+                    <input type="button" value="SEARCH WORK" id="SEARCH" class="buton1">
+                </div>
+
+            </div>
+        </div>
+
+        <div id="work-content">
+            <div class="colum-prin">
+                <div class="title">
+                    <h3>Nombre del trabajo</h3>
+                </div>
+                <div class="trabajo">
+                    <input class="sub-trabajo" type="date">
+                    <div class="division">
+                        <label class="sub-trabajo" for="">Descripción del trabajo</label>
+                        <textarea class="sub-trabajo" name="" id="" rows="3" required></textarea>
+                    </div>
+                    <button type="button" class="btn btn-primary boton">Responder</button>
+                    
+                    <div class="division">
+                        <label class="sub-trabajo" for="">Destinatario</label>
+                        <select class="form-control sub-trabajo" name="" id="">
+                            <option value="">Destinatario</option>
+                            <option value=""></option>
+                        </select>
+                    </div>
+                    <div class="division">
+                        <label class="sub-trabajo" for="">Texto</label>
+                        <textarea class="sub-trabajo" name="" id="" rows="3"></textarea>
+                    </div>
+                    <div class="division">
+                        <label class="sub-trabajo" for="">Adjuntar</label>
+                        <input class="sub-trabajo" type="file" id="referencias" multiple>
+                    </div>
+                    <button type="button" class="btn btn-primary boton">Enviar</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="tasks-content">
+            <div class="colum-prin">
+                <div class="title">
+                    <h3>Pending Work</h3>
+                    <i class="fas fa-exclamation-triangle triangulo"></i>
+                </div>
+                <div class="tasks">
+                    <ul class="list-group">
+                        <li class="list-group-item item">
+                            <div class="sub-item nombre">
+                                <i class="fas fa-user-circle circulo"></i>
+                                <label class="sub-item">Nombre de la empresa / persona</label>
+                            </div>
+                            <label>Nombre del trabajo</label>
+                            <input type="date" class="sub-item">
+                            <label class="sub-item">Descripción</label>
+                            <textarea class="sub-item" name="" id="" rows="3"></textarea>
+                        </li>
+                        <li class="list-group-item item">
+                            <div class="sub-item nombre">
+                                <i class="fas fa-user-circle circulo"></i>
+                                <label class="sub-item">Nombre de la empresa / persona</label>
+                            </div>
+                            <label class="sub-item">Nombre del trabajo</label>
+                            <input class="sub-item" type="date">
+                            <label class="sub-item">Descripción</label>
+                            <textarea class="sub-item" rows="3"></textarea>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="notificaciones.js"></script>
+    <script src="codeP.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>

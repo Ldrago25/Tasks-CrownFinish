@@ -1,0 +1,873 @@
+#sidebar {
+    display: none;
+}
+
+.contenedor-sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+}
+
+.notification {
+    margin-top: -18px;
+    height: 8%;
+    margin-right: 20px;
+    text-align: end;
+}
+
+.Photo {
+    height: 8%;
+    justify-content: center;
+}
+
+.asociacion {
+    display: flex;
+    justify-content: space-between;
+}
+
+.correr {
+    margin-left: 20px;
+}
+
+#principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    color: black;
+    min-height: 10vh;
+    background-color: rgb(198, 108, 74);
+}
+
+#data {
+    justify-content: center;
+    width: 200px;
+    height: 5%;
+    display: flex;
+    padding-right: 10px;
+}
+
+.logo-task {
+    width: 120px;
+}
+
+#textareas {
+    border: 2px solid grey;
+}
+
+.row1-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 50vh;
+    z-index: 20;
+    /*  margin-top: -5%;*/
+}
+
+.colum1,
+.colum2,
+.colum3 {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(228, 199, 161, 0.7);
+    width: 20%;
+    min-height: 50vh;
+}
+
+#boton-1 {
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.space-boton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+}
+
+#boton-first {
+    background-color: rgb(4, 4, 73);
+    color: white;
+    border: rgb(8, 33, 110);
+    width: 100%;
+}
+
+.buton1 {
+    background-color: rgb(198, 108, 74);
+    color: white;
+    border: rgb(198, 108, 74);
+    width: 50%;
+}
+
+#cuerpo-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 90vh;
+    background-image: url("team-content.png");
+    object-fit: fill;
+    justify-content: space-around;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    min-height: 40vh;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    min-height: 40vh;
+}
+
+.imag {
+    margin-top: 20px;
+}
+
+nav {
+    display: block !important;
+}
+
+.navbar-header {
+    position: relative;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.navbar-header h1 {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+
+.navbar-header button {
+    margin-top: 0;
+    display: block;
+    position: relative;
+    margin-right: 0;
+    margin-left: auto;
+    z-index: 10;
+}
+
+nav {
+    flex-direction: column;
+    background-color: rgb(32, 39, 57);
+    color: white;
+}
+
+.main-content {
+    min-height: 200vh;
+}
+
+#New-content {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(198, 108, 74);
+}
+
+.Tasks {
+    background-color: rgb(4, 4, 73);
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.colum-prin {
+    min-height: 100vh;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.Title {
+    min-height: 7vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.title {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(4, 4, 73);
+    color: white;
+}
+
+
+.Icon-tasks {
+    width: 100%;
+    min-height: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Desing a {
+    color: black;
+}
+
+.Name-employed {
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.Desing {
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.h6 {
+    margin-left: 5%;
+}
+
+#information {
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.Calendario {
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.month-day {
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#calendario,
+#Date-Tasks {
+    border: 2px solid grey;
+    width: 60%;
+}
+
+#lower-section {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0rem;
+}
+
+#text-work,
+#text-emple,
+#Select-emplo {
+    border: 2px solid grey;
+}
+
+#text-emple {
+    width: 40%;
+}
+
+#Select-emplo {
+    width: 100%;
+}
+
+.NameTasks {
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.formulario {
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    min-height: 80vh;
+}
+
+#graph-img {
+    width: 250px;
+    max-width: 100%;
+}
+
+.botones {
+    align-self: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#Text-item {
+    width: 50%;
+    border: 2px solid grey;
+}
+
+.botones button {
+    margin-top: 1rem;
+    width: 10rem;
+}
+
+.form-group {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0rem;
+}
+
+.fotos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.fotos img {
+    width: 0;
+    flex-grow: 1;
+}
+
+.form-group textarea {
+    width: 100%;
+}
+
+.subcontent i {
+    margin: 0 1rem;
+}
+
+a {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+h6 {
+    margin: 0;
+}
+
+#btns {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#Tasks-b {
+    background-color: rgb(3, 3, 46);
+    color: white;
+    border: rgb(3, 3, 46);
+    width: 20%;
+}
+
+.hr {
+    border: 0.8px solid rgba(46, 43, 43, 0.6);
+    width: 95%;
+}
+
+.content-1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-end;
+    min-height: 12vh;
+}
+
+.label-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 40%;
+}
+
+#name-test {
+    border: 2px solid grey;
+    width: 80%;
+}
+
+#btn-b {
+    background-color: rgb(3, 3, 46);
+    color: white;
+    border: rgb(3, 3, 46);
+    width: 20%;
+    min-height: 4vh;
+}
+
+.user-input {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 2%;
+}
+
+#footer-input {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#text-user {
+    border: 2px solid grey;
+    width: 95%;
+}
+
+.statistics {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#range-user {
+    width: 50%;
+}
+
+.cerrar {
+    background-color: white;
+    color: black;
+}
+
+.icono {
+    margin-top: 30px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: rgb(4, 4, 73);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+form {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    width: 100%;
+}
+
+.select {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.check {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-check-input {
+    position: relative;
+}
+
+.form-check-label {
+    padding-left: 0.5rem;
+}
+
+.division {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sub-division {
+    width: 48%;
+}
+
+.botones {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.boton{
+    width: 150px;
+    background-color: rgb(3, 3, 46);
+    border-color: rgb(3, 3, 46);
+    align-self: center;
+    margin-bottom: 40px;
+    white-space: normal;
+}
+
+.upload-button{
+    text-align: center;
+    width: 18%;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.upload-button:hover{
+    color: rgb(3, 3, 46);
+    text-shadow: 4px rgba(3, 3, 46, 0.6);
+}
+
+.galerias {
+    margin-bottom: 10px;
+}
+
+.galeria {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    background-color: rgba(198, 108, 74, 0.2);
+    border-radius: 5px;
+}
+
+.ga {
+    margin-bottom: 20px;
+}
+
+.agregar {
+    width: 100%;
+    text-align: end;
+    align-self: flex-end;
+}
+
+.text {
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.boton {
+    margin-top: 10px;
+}
+
+.tipo {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.tipo label {
+    font-size: 22px;
+}
+
+.form-check-inline .form-check-label {
+    vertical-align: initial !important;
+}
+
+#empresa-contenido {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#business-contenido {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+
+.rubro {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sub-rubro {
+    width: 150px;
+}
+
+.datos {
+    border-top: solid rgba(198, 108, 74, 0.6);
+    border-bottom: solid rgba(198, 108, 74, 0.6);
+    margin: 5px 0 25px 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.sub-datos {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.imagen {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.informacion {
+    padding: 20px 0;
+}
+
+.boton-ver {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ver {
+    width: 150px;
+    margin: 0 5px 20px 0;
+}
+
+#boton-notificacion2 {
+    z-index: 20;
+}
+
+#notificar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 21;
+    height: 60vh;
+    overflow-y: scroll;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 60%;
+    padding: 10px 0;
+    margin-top: 83px;
+    transition: margin-left 1s;
+}
+
+.desactivar {
+    margin-left: -60%;
+}
+
+.activar {
+    margin-left: 0;
+}
+
+.notificacion {
+    margin-bottom: 20px;
+    padding: 10px 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-top: solid rgba(184, 69, 31, 0.3);
+    border-bottom: solid rgba(184, 69, 31, 0.3);
+}
+
+#notificar h6 {
+    text-align: end;
+    margin-bottom: 5px;
+    margin-right: 8px;
+}
+
+.notificacion h5 {
+    background-color: rgb(198, 108, 74);
+    color: white;
+    padding: 4px;
+    text-align: center;
+    width: 100%;
+}
+
+.notificacion p {
+    margin-left: 20px
+}
+
+.notificacion h6 {
+    text-align: start !important;
+}
+
+.btn-notificar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.boton-notificar {
+    background-color: rgb(3, 3, 46);
+    color: white;
+    height: 30px;
+    padding: 5px 2px;
+    width: 100px;
+    font-size: 15px;
+}
+
+@media(min-width: 768px) {
+    #sidebar {
+        padding: 2rem 1rem;
+        flex-direction: column;
+        display: flex;
+        position: fixed;
+        background-color: rgb(3, 3, 46);
+        color: white;
+        width: 16%;
+        height: 100vh;
+        z-index: 22;
+    }
+    #boton-1 {
+        align-items: flex-end;
+    }
+    nav {
+        display: none !important;
+    }
+    .main-content {
+        margin-left: 16%;
+        width: 84%;
+        background-color: white;
+    }
+    .colum1,
+    .colum2,
+    .colum3 {
+        width: 25%;
+    }
+    #btn-b {
+        width: 15%;
+    }
+
+    #notificar {
+        min-height: 95vh;
+        width: 16%;
+        position: fixed;
+        z-index: 21;
+        margin-top: 79px;
+        background-color: rgba(255, 255, 255, 0.7);
+        color: black;
+        padding: 20px 0;
+        transition: margin-left 1s;
+    }
+
+    .desactivar {
+        margin-left: 0;
+    }
+
+    .activar {
+        margin-left: 16%;
+    }
+
+    .boton-notificacion {
+        color: white;
+    }
+
+    .boton-notificacion:hover {
+        color: rgb(238, 234, 234);
+        border-color: transparent;
+    }
+}
+
+@media(min-width: 1200px) {
+    .buton1 {
+        background-color: rgb(4, 4, 73);
+        color: white;
+        border: rgb(8, 33, 110);
+        width: 50%;
+    }
+}
+
+@media (min-width: 550px) {
+    .colum1,
+    .colum2,
+    .colum3 {
+        width: 20%;
+    }
+    .buton1 {
+        background-color: rgb(4, 4, 73);
+        color: white;
+        border: rgb(8, 33, 110);
+        width: 80%;
+    }
+    #calendario,
+    #Date-Tasks {
+        width: 40%;
+    }
+}
+
+@media (min-width: 200px) {
+    .colum1,
+    .colum2,
+    .colum3 {
+        width: 70%;
+    }
+}
+
+@media (min-width: 620px) {
+    .row1-content {
+        flex-direction: row;
+    }
+    .buton1 {
+        background-color: rgb(198, 108, 74);
+        color: white;
+        border: rgb(198, 108, 74);
+        width: 60%;
+    }
+    .colum1,
+    .colum2,
+    .colum3 {
+        width: 28%;
+    }
+    #boton-first {
+        width: 68%;
+        margin-left: 20%;
+    }
+    .space-boton {
+        width: 25%;
+    }
+    #boton-1 {
+        margin-top: -5%;
+    }
+}
+
+@media(max-width: 660px) {
+    .check {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 361px) {
+    .rows h5 {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Tasks Crown</title>
+    <link href="font-awesome/css/fontawesome.css" rel="stylesheet">
+    <link href="font-awesome/css/brands.css" rel="stylesheet">
+    <link href="font-awesome/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="solicitud.css">
+</head>
+
+<body>
+
+    <div id="sidebar">
+        <div class="sidebar-header">
+            <div class="logos">
+                <img src="TASK_Mesa.png" alt="" class="logo-task">
+            </div>
+            <h3 class=" h5 mt-4 justify-content-end">TASKS CROWN</h3>
+        </div>
+        <div class="container align-items-center options">
+            <ul class="ul-options">
+                <li class="int-link">
+                    <a href="" class="">Home</a>
+                </li>
+                <li class="int-link">
+                    <a href="" class="">About Us</a>
+                </li>
+                <li class="int-link">
+                    <a href="" class="">Services</a>
+                </li class="int-link">
+            </ul>
+        </div>
+    </div>
+
+
+    <nav class="navbar sticky-top">
+        <div class="navbar-header">
+            <div class="logos">
+                <img src="TASK_Mesa.png" alt="" class="logo-task2">
+            </div>
+            <button class="navbar-toggle collapsed btn btn-secondary" data-toggle="collapse" data-target="#nav-content">
+                <i class="fas fa-align-justify fa-2x"></i>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse " id="nav-content">
+            <div class="links-container">
+                <ul class="nav navbar-nav">
+                    <li class="int-link"> <a href="" class="">Home</a> </li>
+                    <li class="int-link"> <a href="" class="">About Us</a> </li>
+                    <li class="int-link"> <a href="" class="">Services</a> </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="main-content">
+
+        <div class="grid-1">
+            <div class="content-grid">
+                <a title="Back" href="index.html" id="links"> <i class="fas fa-angle-left fa-3x"></i></a>
+                <p class="h6">Back</p>
+            </div>
+            <div class="subgrid2">
+                <div class="rows">
+                    <h3>General</h3>
+                    <div class="icono-globo">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-2">
+            <div class="Colum-principal">
+                <div class="title">
+                    <h1>Solicitud</h1>
+                </div>
+                <div class="check">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="tipo" id="profesional" value="1" onclick="mostrar(this)" checked>
+                        <label class="form-check-label" for="profesional">Profesional</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="tipo" id="comercial" value="2" onclick="mostrar(this)">
+                        <label class="form-check-label" for="comercial">Comercial</label>
+                    </div>
+                </div>
+                
+
+                <form id="contenido-profesional">
+                    <div class="form-group">
+                        <label for="">Nombre</label>
+                        <input type="text" class="form-control mb-2" required>
+                    </div> 
+                    <div class="form-group">
+                        <label for="">Apellido</label>
+                        <input type="text" class="form-control mb-2" required>
+                    </div>
+                    <div class="select">
+                        <label for="">Selecciona al profesional/oficio</label>
+                        <select class="custom-select mb-2" id="" required>
+                            <option selected disabled>Seleccionar</option>
+                            <option value="">1</option>
+                            <option value="">Otro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="">¿Qué necesitas?</label>
+                        <textarea id="" rows="3" class="form-control mb-2" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="">¿Cómo lo quiere? (Opcional)</label>
+                        <textarea id="" rows="3" class="form-control mb-2"></textarea>
+                    </div>
+                    <div class="select">
+                        <label for="">Referencias (Opcional)</label>
+                        <label for="archivo" class="upload-button">Insertar Foto/Archivo</label>
+                        <input id="archivo" name="archivo" type="file" style="display:none"/>
+                    </div>
+                    <div class="select">
+                        <select class="custom-select mb-2" id="">
+                            <option selected disabled>Tiempo (Opcional)</option>
+                            <option value="">30 minutos</option>
+                            <option value="">1 hora</option>
+                            <option value="">12 horas</option>
+                            <option value="">24 hora</option>
+                            <option value="">Otro</option>
+                        </select>
+                    </div>
+                    <div class="contacto">
+                        <label for="">Contacto:</label>
+                        <div class="division">
+                            <div class="form-group sub-division">
+                                <label for="">País</label>
+                                <input type="text" class="form-control mb-2" required>
+                            </div> 
+                            <div class="form-group sub-division">
+                                <label for="">Región</label>
+                                <input type="text" class="form-control mb-2" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Teléfono</label>
+                            <input type="tel" class="form-control mb-2" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Email</label>
+                            <input type="email" class="form-control mb-2" required>
+                        </div>
+                    </div>
+                    <div class="botones">
+                        <button type="submit" class="btn btn-primary boton">Publicar</button>
+                    </div>
+                </form>
+
+                <form id="contenido-comercial">
+                    <div class="form-group">
+                        <label for="">Nombre Empresa</label>
+                        <input type="text" class="form-control mb-2" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="">RIF/Registro</label>
+                        <input type="text" class="form-control mb-2" required>
+                    </div> 
+                    <div class="lugar">
+                        <div class="form-group sub-lugar">
+                            <label for="">País</label>
+                            <input type="text" class="form-control mb-2" required>
+                        </div> 
+                        <div class="form-group sub-lugar">
+                            <label for="">Código postal</label>
+                            <input type="text" class="form-control mb-2" required>
+                        </div>
+                    </div>
+                    <div class="select">
+                        <label for="">Selecciona al profesional/oficio</label>
+                        <select class="custom-select mb-2" id="" required>
+                            <option selected disabled>Seleccionar</option>
+                            <option value="">1</option>
+                            <option value="">Otro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="">¿Qué necesitas? (Opcional)</label>
+                        <textarea id="" rows="3" class="form-control mb-2"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="">¿Cómo lo quiere? (Opcional)</label>
+                        <textarea id="" rows="3" class="form-control mb-2"></textarea>
+                    </div>
+                    <div class="select">
+                        <label for="">Referencias</label>
+                        <label for="archivo" class="upload-button">Insertar Foto/Archivo</label>
+                        <input id="archivo" name="archivo" type="file" style="display:none" required/>
+                    </div>
+                    <div class="select">
+                        <select class="custom-select mb-2" id="" required>
+                            <option selected disabled>Tiempo</option>
+                            <option value="">30 minutos</option>
+                            <option value="">1 hora</option>
+                            <option value="">12 horas</option>
+                            <option value="">24 hora</option>
+                            <option value="">Otro</option>
+                        </select>
+                    </div>
+                    <div class="contacto">
+                        <label for="">Contacto:</label>
+                        <div class="division">
+                            <div class="form-group sub-division">
+                                <label for="">Teléfono</label>
+                                <input type="tel" class="form-control mb-2" required>
+                            </div> 
+                            <div class="form-group sub-division">
+                                <label for="">Email</label>
+                                <input type="email" class="form-control mb-2" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="botones">
+                        <button type="submit" class="btn btn-primary boton">Publicar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="solicitud.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js " integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js " integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb " crossorigin="anonymous "></script>
+    <script src="js/bootstrap.min.js "></script>
+</body>
+
+</html>

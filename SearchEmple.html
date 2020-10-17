@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Tasks Crown</title>
+    <link href="font-awesome/css/fontawesome.css" rel="stylesheet">
+    <link href="font-awesome/css/brands.css" rel="stylesheet">
+    <link href="font-awesome/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="SearchEmplo.css">
+</head>
+
+<body>
+
+    <div id="sidebar">
+        <div class="notification">
+            <a id="boton-notificacion" role="button"><i title="notifications" class="fas fa-bell fa-2x"></i></a>
+        </div>
+        <div class="contenedor-sidebar">
+            <div class="Photo">
+                <p class="h6">Photo</p>
+            </div>
+            <div class="reputacion">
+                <div class="asociacion">
+                    <h6>Asociacion</h6>
+                    <h6 class="correr">Icon</h6>
+                </div>
+                <h6>Reputacion</h6>
+            </div>
+            <div class="Description">
+                <h6>Description</h6>
+            </div>
+            <div class="Icon-country">
+                <h6>Icon Country</h6>
+            </div>
+            <div class="Nombre-country">
+                <h6>Usa</h6>
+            </div>
+        </div>
+    </div>
+
+    <div class="notificaciones desactivar" id="notificar">
+        <h6>15/octubre/2020</h6>
+        <div class="notificacion">
+            <h5>Employer of empresa</h5>
+            <p>Luis Diaz ha aceptado</p>
+        </div>
+        <h6>15/octubre/2020</h6>
+        <div class="notificacion">
+            <h5>Employer - world</h5>
+            <p>Anna rey solicito un trabajo</p>
+            <div class="btn-notificar">
+                <button class="btn btn-secundary boton-notificar">Ver perfil</button>
+            </div>
+        </div>
+        <h6>15/octubre/2020</h6>
+        <div class="notificacion">
+            <h5>Task / work</h5>
+            <p>Brandon Gates envio un trabajo</p>
+            <div class="btn-notificar">
+                <button class="btn btn-secundary boton-notificar">Ver trabajo</button>
+            </div>
+        </div>
+    </div> 
+
+    <nav class="navbar sticky-top">
+        <div class="navbar-header">
+            <a id="boton-notificacion" role="button"><i title="notifications" class="fas fa-bell fa-2x"></i></a>
+            <h1 class="h1-logo"> Imagen </h1>
+            <button class="navbar-toggle collapsed btn btn-secondary" data-toggle="collapse" data-target="#nav-content">
+                <i class="fas fa-align-justify fa-2x"></i>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse " id="nav-content">
+            <div class="links-container">
+                <div class="asociacion">
+                    <h6>Asociacion</h6>
+                    <h6>Icon</h6>
+                </div>
+                <h6>Reputacion</h6>
+            </div>
+
+            <div class="Description">
+                <h6>Description</h6>
+            </div>
+            <div class="Icon-country">
+                <h6>Icon Country</h6>
+            </div>
+            <div class="Nombre-country">
+                <h6>Usa</h6>
+            </div>
+            <div class="d-flex justify-content-center">
+                <a href="index.html">Close Session</a>
+            </div>
+        </div>
+    </nav>
+
+    <div id="main-content">
+        <div class="grid-1">
+            <div class="content-grid">
+                <a title="Back" href="addemployed.html" id="links"> <i class="fas fa-angle-left fa-3x"></i></a>
+                <p class="h6">Back</p>
+            </div>
+            <div class="subgrid2">
+                <div class="rows">
+                    <img src="TASK_Mesa.png" alt="" class="logo-task">
+                </div>
+            </div>
+        </div>
+        <div class="grid-2">
+            <div class="Colum-principal">
+                <div id="title">
+                    <h1>ADD NEW EMPLOYER</h1>
+                </div>
+                <div class="content-title">
+                    <h5>Search name of user employer/professional</h5>
+                </div>
+                <div class="search-usuario">
+                    <div class="edit-sea">
+                        <input type="text" id="text-usuario" required placeholder="Name of user Search">
+                        <i class="fas fa-search fa-2x icon"></i>
+                    </div>
+                </div>
+                <div class="Country-user">
+                    <h6>Profesion</h6>
+                    <div class="text-country">
+                        <input type="text" name="text-country" id="textfield">
+                        <i class="fa fa-angle-right fa-3x got" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="content-usuarios">
+                    <div id="footer-1">
+                        <div class="user-info">
+                            <i class="fa fa-user-circle fa-3x edit" aria-hidden="true"></i>
+                            <div class="user-text">
+                                <h7>Name</h7>
+                                <h7>Profesion</h7>
+                                <h7>Country Icon</h7>
+                            </div>
+                        </div>
+                        <div class="boton">
+                            <input type="button" value="See perfil" id="button-perfil">
+                        </div>
+                    </div>
+                    <hr class="hr">
+                    <div id="footer-2">
+                        <div class="user-info">
+                            <i class="fa fa-user-circle fa-3x edit" aria-hidden="true"></i>
+                            <div class="user-text">
+                                <h7>Name</h7>
+                                <h7>Profesion</h7>
+                                <h7>Country Icon</h7>
+                            </div>
+                        </div>
+                        <div class="boton">
+                            <input type="button" value="See perfil" id="button-perfil">
+                        </div>
+                    </div>
+                    <hr class="hr">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="notificaciones.js"></script>
+    <script src="SearchE.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js " integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js " integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb " crossorigin="anonymous "></script>
+    <script src="js/bootstrap.min.js "></script>
+</body>
+
+</html>
