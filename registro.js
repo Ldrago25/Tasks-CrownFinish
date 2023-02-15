@@ -1,20 +1,10 @@
-var botonE = document.getElementById("empresario");
-var botonP = document.getElementById("profesional");
 var botonG = document.getElementById("go-button");
-var bandera = 0;
-botonE.addEventListener("click", empresario);
-botonP.addEventListener("click", profesional);
+var botonG2 = document.getElementById("opt");
+var bandera = botonG2.value;
 botonG.addEventListener("click", letgo);
 
-function empresario() {
-    bandera = 1;
-}
-
-function profesional() {
-    bandera = 2;
-}
-
 function letgo() {
+    console.log(bandera);
     if (bandera == 1) {
         document.location.href = "IEmpresa.html";
     } else if (bandera == 2) {
